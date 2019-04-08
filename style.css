@@ -1,0 +1,66 @@
+/** {
+
+	border:2px solid black;
+}
+
+*/
+
+body {
+
+	display:block;
+	background-image: url(plain.jpg);
+	background-size:cover;
+}
+
+button {
+	font-family: 'Playfair Display', serif;
+	font-size:25px;
+	font-weight:bold;
+	color:slategrey;
+	margin-top:1000px;
+	width:70%;
+	margin:auto;
+	display:block;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius:7px;
+
+
+}
+
+#recap {
+
+	width:25%;
+	margin-bottom:100px;
+}
+#block {
+	
+	padding-top:60%;
+}
+
+#begin:active,#recap:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#begin:hover, #recap:hover {
+	background-color:grey; /* Green */
+	color: white;
+}
+
+h1 {
+	display:block;
+	text-align:center;
+	margin-bottom:50px;
+	color:white;
+}
+
+#coin {
+
+	color:gold;
+	font-size:40px;
+	padding-bottom:400px;
+	
+}
